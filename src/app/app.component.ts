@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {getLocaleDateFormat, getLocaleDayNames} from "@angular/common";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'helloworld2021';
+  name = 'Thyregod';
+  age = 27;
+
+  getAge(): number {
+    return this.age;
+  }
+
+  setName() {
+
+  }
 }
