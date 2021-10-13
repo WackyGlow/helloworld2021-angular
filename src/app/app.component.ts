@@ -7,14 +7,5 @@ import {getLocaleDateFormat, getLocaleDayNames} from "@angular/common";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name = 'Thyregod';
-  age = 27;
 
-  getAge(): number {
-    return this.age;
-  }
-
-  setName() {
-
-  }
 }
